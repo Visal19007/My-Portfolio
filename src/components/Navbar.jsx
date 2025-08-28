@@ -8,7 +8,7 @@ import ButtonContact from './ButtonContact'
 
 const navigation = [
   { name: 'Home', href: '#', current: true },
-  { name: 'Portfolio', href: '#', current: false },
+  { name: 'Portfolio', href: '#whatido', current: false },
   { name: 'Aboutus', href: '#', current: false },
   { name: 'Contact', href: '#', current: false },
 ]
@@ -22,7 +22,7 @@ export default function Navbar() {
     <Disclosure style={{
       backgroundColor:'rgb(6, 0, 16)',
       colorScheme: 'light',
-    }} as="nav" className="relative">
+    }} as="nav" className="fixed top-0 z-[1000] w-full">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">

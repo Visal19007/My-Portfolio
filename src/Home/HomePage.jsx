@@ -40,8 +40,8 @@ const HomePage = () => {
       </div>
 
       {/* Right Section */}
-      <div className=" w-full lg:w-[35%]   h-40 flex items-center justify-center text-white font-bold">
-        <img className='w-[300px] ' src={profile}  alt="" />
+      <div className=" h-40 flex items-center justify-center text-white font-bold">
+        <img width={250} src={profile}  alt="" />
       </div>
     </div>
   );

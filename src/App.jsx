@@ -28,7 +28,7 @@ function App() {
           disableRotation={false}
         />
       </div>
-      <div className=' absolute top-0 flex justify-center items-center w-full'>
+      <div className=' absolute top-0 flex justify-center items-center w-full '>
         <HomePage/>
       </div>
       

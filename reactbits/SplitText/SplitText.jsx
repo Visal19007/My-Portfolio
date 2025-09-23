@@ -137,7 +137,7 @@ const SplitText = ({
       ref={ref}
       className={`split-parent overflow-hidden inline-block whitespace-normal ${className}`}
       style={{
-        fontSize:"3rem",
+        
         fontWeight: "bold",
         color: "white",
       }}

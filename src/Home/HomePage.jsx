@@ -5,14 +5,14 @@ import profile from '../assets/pip.png'
 import ButtonContact from '../components/ButtonContact';
 const HomePage = () => {
   return (
-    <div className=" w-[80%] mt-40 flex flex-col-reverse  lg:flex-row  justify-between items-center   gap-20 ">
+    <div className=" w-[80%] mt-40 flex flex-col-reverse  lg:flex-row justify-between items-center  gap-10  md:gap-20">
       {/* Left Section */}
       <div className=" w-full lg:w-[60%] text-center lg:text-left">
         <b className="text-white block mb-2">Welcome to My Portfolio</b>
-        <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+        <h2 className="text-3xl lg:text-5xl  mb-4">
           <SplitText
             text="Hi, I'm Visal"
-            className="text-2xl font-semibold text-center lg:text-left"
+            className=" text-center lg:text-left"
             delay={100}
             duration={0.6}
             ease="power3.out"
@@ -33,15 +33,15 @@ const HomePage = () => {
             cursorCharacter="|"
           />
         </h3>
-        <p className='text-white'>Since beginning my journey as a freelance designer <br /> nearly 7 years ago, I’ve done remote work for <br />agencies, consulted for startups, and collaborated with <br /> talented people to create digital products.</p>
+          <p className='text-white text-1xl   text-left'>Since beginning my journey as a freelance designer  nearly 7 years ago, I’ve done remote work for agencies, consulted for startups, and collaborated with  talented people to create digital products.</p>       
         <div className='mt-5'>
           <ButtonContact />
         </div>
       </div>
 
       {/* Right Section */}
-      <div className=" h-40 flex items-center justify-center text-white font-bold">
-        <img width={250} src={profile}  alt="" />
+      <div className=" h-40  flex items-center justify-center text-white font-bold">
+        <img  className='w-50 sm:w-50 md:w-70' src={profile}  alt="" />
       </div>
     </div>
   );

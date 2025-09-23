@@ -33,7 +33,7 @@ const HomePage = () => {
             cursorCharacter="|"
           />
         </h3>
-        <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusamus temporibus ea,consequuntur officia ad quo recusandae, nobis corrupti corporis fugiat provident eius voluptas dolorum optio. Nesciunt quos est nisi.</p>
+        <p className='text-white'>Since beginning my journey as a freelance designer <br /> nearly 7 years ago, I’ve done remote work for <br />agencies, consulted for startups, and collaborated with <br /> talented people to create digital products.</p>
         <div className='mt-5'>
           <ButtonContact />
         </div>
